@@ -31,7 +31,7 @@ struct DSU {
 			size[a] += size[b];
 		}
 	}
-  bool same(ll a, ll b){
+  	bool same(ll a, ll b){
 		return find(a) == find(b);
 	}
 	ll get(ll v){
